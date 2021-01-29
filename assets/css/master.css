@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  background-color: #E57AE6;  /*pink color*/
+}
+
+header {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.prima-barra {
+  height: 10vh;
+  background-color: lightblue;
+}
+
+.seconda-barra {
+  height: 10vh;
+  background-color: cyan;
+}
+
+.terza-barra {
+  height: 80vh;
+  background-color: lightgreen;
+}
