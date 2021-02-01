@@ -59,7 +59,7 @@ header {
 
 .menu nav ul li {
   font-family: Verdana, sans-serif;
-  padding-top: 4vh;
+  padding: 40px 0;
   border: 1px solid red;
   margin: 0 10px;
   display: inline-block;
@@ -213,6 +213,8 @@ main {
   top: 50px;
   left: 300px;
   text-decoration: none;
+  text-align: center;
+  font-family: Verdana, sans-serif;
   background-color: #EE765C;
   padding: 30px 35px;
   border-width: 0;
@@ -252,6 +254,8 @@ main {
   width: 30%;
   padding: 10px;
   border: 1px solid red;
+  margin-top: 40px;
+  margin-bottom: 40px;
   margin-right: 5%;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -261,6 +265,8 @@ main {
   width: 30%;
   padding: 10px;
   border: 1px solid red;
+  margin-top: 40px;
+  margin-bottom: 40px;
   margin-right: 5%;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -270,6 +276,8 @@ main {
   width: 30%;
   padding: 10px;
   border: 1px solid red;
+  margin-top: 40px;
+  margin-bottom: 40px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
@@ -278,4 +286,21 @@ main {
   content: "";
   display: table;
   clear: both;
+}
+
+#bg-gradient {
+  height: 200px;
+  background-color: #14A3BC; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #07ACB8 , #29B2A1);
+}
+.container-gradient {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.white-text {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+  padding: 40px;
 }
