@@ -211,4 +211,10 @@ main {
 
 .check-list ul li {
   display: inline-block;
+  margin-right: 10px;
+}
+
+.check-list .fas {
+  color: #EE765C; /*orange*/
+  padding-right: 5px;
 }
