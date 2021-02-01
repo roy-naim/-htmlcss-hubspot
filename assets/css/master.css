@@ -11,11 +11,11 @@
 }
 
 
-.container:after {
+/*.container:after {
   content: '';
   display: table;
   clear: both;
-}
+}*/
 ul li {
   list-style: none;
 }
@@ -34,7 +34,30 @@ header {
   width: 100%;
 }
 
-.language-contact nav ul li {
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  /*padding: 10px;*/
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.menu nav ul li {
   font-family: Verdana, sans-serif;
   padding-top: 4vh;
   border: 1px solid red;
@@ -43,13 +66,19 @@ header {
   vertical-align: middle;
 }
 
+nav .top-menu-right li:last-child { /*viene a indicare che sto prendendo l'ultimo della lista*/
+  margin-right: 0;
+}
 
-.search-login ul li {
+nav .top-menu-left li:first-child {
+  margin-left: 0;
+}
+.menu ul li {
   display: inline-block;
   vertical-align: middle;
-  float: right;
 }
-.search-login .fas {
+
+.menu .fa-search {
   color: #14A3BC; /*blue for search symbol*/
 }
 
@@ -80,6 +109,7 @@ header {
 .seconda-barra {
   background-color: blue;
   border-top: 2px;
+  margin-top: 100px;
 }
 
 .hubspot-logo img {
@@ -144,7 +174,7 @@ main {
   width: 20%;
 }
 
-.col-1 img {
+.book img {
   display: block;
   padding-top: 50px;
   margin-left: auto;
@@ -163,7 +193,7 @@ main {
   padding-bottom:80px;
 }
 
-.container-white {
+.white-box {
   max-width: 1500px;
   margin: 0 auto;
   background-color: #FFFFFF;  /*white color*/
@@ -171,14 +201,14 @@ main {
 }
 
 
-.col-1 {
+/*.col-1 {
   float: left;
   width: 50%;
   background-color: #ABCFE8;
   height: 370px;
-}
+}*/
 
-.learn {
+.book a {
   position: relative;
   top: 50px;
   left: 300px;
@@ -191,20 +221,18 @@ main {
   cursor: pointer;
 }
 
-.col-2 {
-  float: left;
-  width: 50%;
+.free-hub {
   background-color: #ABCFE8;
   height: 370px;
   font-family: Verdana, sans-serif;
   padding: 50px 30px;
 }
 
-.col-2 h2 {
+/*.col-2 h2 {
   margin-bottom: 35px;
-}
+}*/
 
-.col-2 h3 {
+.free-hub h3 {
   margin: 20px 0;
   text-transform: uppercase;
 }
@@ -217,4 +245,37 @@ main {
 .check-list .fas {
   color: #EE765C; /*orange*/
   padding-right: 5px;
+}
+
+.column-first {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid red;
+  margin-right: 5%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-second {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid red;
+  margin-right: 5%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-third {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid red;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
