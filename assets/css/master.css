@@ -361,8 +361,11 @@ hr {
   background-color: #ffffff;
 }
 
+.p-5 {
+  padding: 5%;
+}
+
 .col-30 {
-  margin-top: 50px;
   width: 30%;
   text-align: center;
   background-color: lightblue;
@@ -379,9 +382,8 @@ hr {
   color: #33475B;
 }
 
-.col-60 {
-  margin-top: 50px;
-  width: 60%;
+.col-70 {
+  width: 70%;
   background-color: lightgreen;
   font-family: Verdana, sans-serif;
   color: #33475B;
@@ -389,40 +391,49 @@ hr {
 
 .logo-first {
   float: left;
-  width: 20%;
+  width: 25%;
   border-right: 1px solid #ffffff;
   margin: 20px 0;
   text-align: center;
+  vertical-align: middle;
 }
 
 .atlassian img {
   height: 15px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .doordash img {
   height: 15px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .g2c img {
   height: 30px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .purple img {
   height: 30px;
-  vertical-align: middle;
-}
-
-.logo-second {
-  float: left;
-  width: 20%;
-  border-right: 1px solid #ffffff;
-  text-align: center;
+  /* vertical-align: middle; */
 }
 
 .subaru img {
-  height: 15px;
-  vertical-align: middle;
+  height: 30px;
+  /* vertical-align: middle; */
+}
+
+.wistia img {
+  height: 30px;
+  /* vertical-align: middle; */
+}
+
+.classpass img {
+  height: 30px;
+  /* vertical-align: middle; */
+}
+
+.vmware img {
+  height: 30px;
+  /* vertical-align: middle; */
 }
