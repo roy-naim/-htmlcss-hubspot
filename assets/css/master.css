@@ -379,9 +379,9 @@ hr {
   color: #33475B;
 }
 
-.col-70 {
+.col-60 {
   margin-top: 50px;
-  width: 70%;
+  width: 60%;
   background-color: lightgreen;
   font-family: Verdana, sans-serif;
   color: #33475B;
@@ -389,14 +389,14 @@ hr {
 
 .logo-first {
   float: left;
-  width: 25%;
+  width: 20%;
   border-right: 1px solid #ffffff;
   margin: 20px 0;
   text-align: center;
 }
 
 .atlassian img {
-  height: 30px;
+  height: 15px;
   vertical-align: middle;
 }
 
@@ -406,11 +406,23 @@ hr {
 }
 
 .g2c img {
-  height: 40px;
+  height: 30px;
   vertical-align: middle;
 }
 
 .purple img {
   height: 30px;
+  vertical-align: middle;
+}
+
+.logo-second {
+  float: left;
+  width: 20%;
+  border-right: 1px solid #ffffff;
+  text-align: center;
+}
+
+.subaru img {
+  height: 15px;
   vertical-align: middle;
 }
